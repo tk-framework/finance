@@ -1,0 +1,41 @@
+{
+	"name": "tk-framework/finance",
+	"description": "Provides methods for validation related to finance.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"finance",
+		"creditcard",
+		"iban"
+	],
+	"require": {
+		"php": "^7.2.0"
+	},
+	"require-dev": {
+		"tk-framework/test": "^1.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Finance\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Finance\\Tests\\": "tests/src"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.timonkreis.de"
+		}
+	]
+}
