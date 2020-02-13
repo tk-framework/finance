@@ -2,7 +2,7 @@
 	"name": "tk-framework/finance",
 	"description": "Provides methods for validation related to finance.",
 	"homepage": "https://www.timonkreis.de",
-	"license": "proprietary",
+	"license": "MIT",
 	"authors": [
 		{
 			"name": "Timon Kreis",
